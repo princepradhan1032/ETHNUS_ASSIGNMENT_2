@@ -1,0 +1,6 @@
+function alphabetizeString(str) {
+    return str.split('').sort().join('');
+}
+
+let inputString = 'hello world';
+console.log(alphabetizeString(inputString)); 

@@ -1,0 +1,98 @@
+/* Center the form */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+/* Login container */
+.login-container {
+    background: #f8f8f8;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Instagram title */
+.login-container h2 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+/* Input field container */
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+/* Input field */
+.input-field input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding-left: 10px;
+    background: transparent;
+}
+
+/* Icons inside input */
+.icon {
+    font-size: 16px;
+    color: gray;
+    padding-left: 10px;
+}
+
+/* Login button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Hover effect */
+.login-btn:hover {
+    background-color: #0077c2;
+}
+
+/* Remember me and Forgot password */
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Signup section */
+.signup-link {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.signup-link a {
+    color: #0095F6;
+    text-decoration: none;
+}
+
+/* "Don't have an account?" - Outside the box */
+.outside-signup {
+    font-size: 14px
+}

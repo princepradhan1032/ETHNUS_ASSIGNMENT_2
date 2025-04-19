@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Improved Form Validation</title>
+    
+    <link rel="stylesheet" href="Task5.css">
+    <script src="Task5.js" defer></script>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Contact Form</h2>
+        <form onsubmit="return validateForm()">
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <span id="nameError" class="error"></span>
+
+            <label>Email:</label>
+            <input type="text" id="email" placeholder="Enter your email">
+            <span id="emailError" class="error"></span>
+
+            <label>Website:</label>
+            <input type="text" id="website" placeholder="Enter website URL">
+            <span id="websiteError" class="error"></span>
+
+            <label>Message:</label>
+            <textarea id="message" placeholder="Your message" rows="4"></textarea>
+            <span id="messageError" class="error"></span>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

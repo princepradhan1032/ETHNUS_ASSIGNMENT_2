@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Task8.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration form</h1>
+        <form id="registrationForm">
+            <label>First Name <span class="error" id="fnameError">POOR</span></label>
+            <input type="text" id="fname">
+            
+            <label>Last Name <span class="error" id="lnameError">POOR</span></label>
+            <input type="text" id="lname">
+            
+            <label>Email <span class="error" id="emailError">POOR</span></label>
+            <input type="email" id="email">
+            
+            <label>Password <span class="error" id="passwordError">POOR</span></label>
+            <input type="password" id="password">
+            
+            <label>Re-enter Password <span class="error" id="rePasswordError">POOR OR MISMATCH</span></label>
+            <input type="password" id="repassword">
+            
+            <label>Gender</label>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+
+            <label>Age <span class="error" id="ageError">POOR</span></label>
+            <input type="number" id="age">
+
+            <label>Phone Number <span class="error" id="phoneError">POOR</span></label>
+            <input type="text" id="phone">
+
+            <label>Address <span class="error" id="addressError">POOR</span></label>
+            <textarea id="address"></textarea>
+
+            <label>State <span class="error" id="stateError">POOR</span></label>
+            <input type="text" id="state">
+
+            <label>Country</label>
+            <select>
+                <option>Choose your country</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+            </select>
+
+            <label>Languages known</label>
+            <div class="languages">
+                <input type="checkbox"> English
+                <input type="checkbox"> Kannada
+                <input type="checkbox"> Hindi
+                <input type="checkbox"> Telugu
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" checked> <span>Hereby I declare all the given details are true</span>
+            </div>
+            
+
+            <p><a href="#">Log in to Ethnus website</a></p>
+
+            <button type="submit">REGISTER</button>
+        </form>
+    </div>
+
+    <script src="Task8.js"></script>
+</body>
+</html>
